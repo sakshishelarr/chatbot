@@ -31,7 +31,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-Usage
+# Usage
 ### 1. Set up environment variables:
 Create a .env file and add your Gemini API key:
 ```bash
@@ -43,3 +43,5 @@ python main.py
 ```
 ### 3. Interact with the chatbot:
 You can ask the chatbot to perform calculations or have a chat. Type quit to exit.
+
+
