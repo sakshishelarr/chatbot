@@ -1,0 +1,17 @@
+# Ignore virtual environment folder
+.venv/
+
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+wheels/
+*.egg-info
+
+# Ignore VS Code-specific files
+.vscode/
+
+# Ignore system-specific files
+.DS_Store
