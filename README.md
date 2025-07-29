@@ -44,4 +44,8 @@ python main.py
 ### 3. Interact with the chatbot:
 You can ask the chatbot to perform calculations or have a chat. Type quit to exit.
 
+---
 
+## Credits:
+- Designed and built by **@sakshishelarr** 
+---
