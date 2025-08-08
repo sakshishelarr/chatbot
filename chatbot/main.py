@@ -13,11 +13,13 @@ def calculator(a: float, b: float) -> str:
     print("Tool has been called. ")
     return f"The sum of{a} and {b} is {a + b}"
 
+
 @tool
 def say_hello(name: str) -> str:
     """Useful for greeting user"""
     print("Tool has been called. ")
     return f"Hello {name}, I hope you are well today"
+
 
 def main():
     model = ChatGoogleGenerativeAI(
@@ -46,6 +48,7 @@ def main():
                 for message in chunk["agent"]["messages"]:
                     print(message.content, end="")
         print()
+
 
 if __name__ == "__main__":
     main()
